@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Windows Light",
+  "version": "1.0",
+  "theme": {
+    "colors": {
+      "frame": [0,95,184],
+      "toolbar": [253,254,255],
+      "button_background": [0,95,184],
+      "toolbar_button_icon": [0,95,184],
+      "tab_background_text": [0,95,184],
+      "omnibox_background": [230,243,253],
+      "omnibox_text": [0,95,184],
+      "bookmark_text": [0,95,184],
+      "tab_text": [0,95,184]
+    },
+    "images": {
+      "theme_frame": "images/theme_frame.png"
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "MacOS Theme",
+  "version": "0.5",
+  "theme": {
+    "colors": {
+      "frame": [25,25,25],
+      "toolbar": [25,25,25],
+      "omnibox_background": [32,32,32],
+
+      "toolbar_button_icon": [79,149,207],
+      "omnibox_text": [79,149,207],
+      "tab_text": [79,149,207]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
