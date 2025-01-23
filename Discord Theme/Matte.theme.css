@@ -1,0 +1,81 @@
+/**
+ * @name Matte Theme
+ * @version 1.0.0
+ * @description A theme for discord inspired by the deep blues of the Atlantic 
+ * @website https://github.com/Daggy1234/Nord
+ */
+/**
+ * @name Nord Theme
+ * @version 1.0.0
+ * @description A theme for discord inspired by the deep blues of the Atlantic 
+ * @website https://github.com/Daggy1234/Nord
+ */
+
+ :root {
+    
+    /*Polar Night(background)*/
+    --polar-night-light: #1c2228;
+    --polar-night: #181e23;
+    --polar-night-dark: #141b1f;
+
+    /*Snow Storm(text)*/
+    --snow-storm-light: #eceff4;
+    --snow-storm: #e5e9f0;
+    --snow-storm-dark: #d8dee9;
+
+    /*Frost(SYSTEM-button)*/
+    --frost-light: #20272d;
+    --frost: #009587;
+    --frost-dark: #009587;
+
+    /*Aurora(SPECIAL)*/
+    --aurora-red: #bf616a;
+    --aurora-orange: #d08770;
+    --aurora-yellow: #ebcb8b;
+    --aurora-green: #a3be8c;
+    --aurora-pink: #b48ead;
+
+}
+
+.theme-dark {
+    /*主要顏色*/
+    --background-primary: var(--polar-night-light);
+    --background-secondary: var(--polar-night);
+    --background-tertiary: var(--polar-night-dark);
+    --background-secondary-alt: var(--polar-night-dark);
+
+    /*按鈕顏色*/
+    --background-modifier-active: var(--frost-dark);
+    --background-modifier-hover: var(--frost);
+    --background-modifier-selected: var(--frost-light);
+
+    /*聊天欄顏色*/
+    --channeltextarea-background: var(--polar-night-dark);
+
+    /*字體&部分按鈕圖標顏色*/
+    --header-primary: var(--frost);
+    --interactive-active: var(--frost-dark);
+    --local-bot-side: var(--polar-night-light);
+
+    /*卷軸顏色*/
+    --scrollbar-auto-thumb: var(--polar-night);
+    --scrollbar-auto-track: var(--polar-night-light);
+
+    --scrollbar-thin-thumb: var(--polar-night-dark);
+    --scrollbar-thin-track: var(--polar-night);
+
+    --background-floating: var(--polar-night);
+
+    --button-secondary-background: var(--frost);
+
+    --button-primary-background-active: var(--frost-dark);
+}
+
+/*標示為已讀欄*/
+.barBase_cf58b5 {
+    background-color: var(--frost);
+}
+
+.sizeSmall_dd4f85 {
+    background-color: var(--aurora-red);
+}

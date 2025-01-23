@@ -1,0 +1,52 @@
+/**
+ * @name MacOS-Night Theme
+ * @description A clean and minimal MacOS-inspired theme for Discord.
+ * @version 1.0.0
+ * @author PolandBall
+ */
+
+ :root {
+    
+  /*(background)*/
+  --primary: #202020;
+  --secondary: #252525;
+  --tertiary: #202020;
+  --trumb: #a4a4a4;
+
+  /*Frost(SYSTEM-button)*/ 
+  --button-color: #2571ee;
+  --button-color-two: #1c73f5;
+  --frost-dark: #a3c0ee;
+
+}
+
+.theme-dark {
+  /*主要,側邊攔,外框,設定,聊天欄,卷軸顏色*/
+  --background-primary: var(--primary);
+  --background-secondary: var(--secondary);
+  --background-tertiary: var(--tertiary);
+  --background-secondary-alt: var(--secondary);
+  --channeltextarea-background: var(--secondary);
+  --scrollbar-auto-thumb: var(--trumb)
+  --scrollbar-auto-track: var(--primary);
+  --scrollbar-thin-thumb: var(--trumb);
+  --scrollbar-thin-track: var(--secondary);
+  --background-floating: var(--secondary);
+
+  /*按鈕顏色*/
+  --background-modifier-active: var(--frost-dark);
+  --background-modifier-hover: var(--button-color-two);
+  --background-modifier-selected: var(--button-color);
+  --button-secondary-background: var(--button-color-two);
+  --button-primary-background-active: var(--frost-dark);
+
+  /*字體&部分按鈕圖標顏色*/
+  --header-primary: var(--button-color-two);
+  --interactive-active: var(--frost-dark);
+  --local-bot-side: var(--primary);
+}
+
+/*標示為已讀欄*/
+.barBase_cf58b5 {
+  background-color: var(--button-color-two);
+}
